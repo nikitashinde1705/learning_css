@@ -1,0 +1,21 @@
+.font1{
+
+    font-family: monospace;
+
+}
+
+.font2{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.font3{
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 0px red;
+    font-size: large;
+}
+
+.font4{
+    font-family: cursive;
+}

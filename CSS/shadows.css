@@ -1,0 +1,9 @@
+.box_shadow{
+    box-shadow: 5px 6px 3px green;
+   
+}
+
+
+.drop_shadow{
+    filter: drop-shadow(5px 6px 3px green);
+}
