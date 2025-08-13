@@ -1,0 +1,76 @@
+.text-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-size: 70px;
+    perspective: 100px;
+}
+
+.text-container b{
+    margin-left: 10px;
+    color: rgb(29, 77, 77);
+    height: 80px;
+    box-shadow: 5px 5px 5px gray;
+    /* box-shadow: 5px 5px 5px red; */
+    background: linear-gradient(to right, red, black, red, black);
+    background-clip: text;
+    color: transparent;
+    transform-origin: bottom;
+    /* transform: rotateX(-55deg); */
+    animation: getUp 10s infinite;
+
+}
+
+.text-container b:nth-child(1){
+    animation-delay: 0s;
+}
+
+.text-container b:nth-child(2){
+    animation-delay: 0.35s;
+}
+
+.text-container b:nth-child(3){
+    animation-delay: 0.60s;
+}
+
+.text-container b:nth-child(4){
+    animation-delay: 0.85s;
+}
+.text-container b:nth-child(5){
+    animation-delay: 0s;
+}
+
+@keyframes getUp {
+
+    from {transform: rotateX(-55deg);}
+    40%, 70%{transform: rotateX(0);}
+    to {transform: rotateX(-85deg);}
+    
+}
+
+.img_container{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.img_container img{
+     transform-origin: top center;
+     animation: imgUp 2s infinite alternate;
+}
+
+@keyframes imgUp {
+
+    from {
+        transform: rotate(7deg);
+
+    }
+    to{
+        transform: rotate(-7deg);
+    }
+    
+}

@@ -1,0 +1,24 @@
+.box_model_para{
+    padding: 20px;
+    margin: 30px;
+    border: 5px solid black;
+}
+
+.box_model_img{
+    padding: 10px;
+    margin: 15px;
+    margin-left: 100px;
+    border-radius: 25px 90px;
+    box-shadow: 10px 10px 5px gray;
+    
+}
+
+.box_model_para2{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    border: 5px inset rgb(71, 154, 201);
+    padding: 20px 40px 50px 30px;
+    background-color: rgba(186, 208, 209, 0.742);
+}
+

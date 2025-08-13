@@ -1,0 +1,28 @@
+.bg_1{
+
+   background-image: url("/Images/bg_image.jpg");
+   background-repeat: no-repeat;
+   background-size: auto cover;
+   background-position: top center;
+   height: 400px;
+   color: white;
+   padding: 5px;
+   margin: 10px;
+
+}
+
+.bg_1 h1{
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+
+
+.bg_2{
+
+    background-image: url("/Images/banner.webp");
+    height: 400px;
+    color: aliceblue;
+
+}
